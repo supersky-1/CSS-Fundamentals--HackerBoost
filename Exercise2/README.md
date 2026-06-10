@@ -1,12 +1,11 @@
-# List every error you find, explain what's wrong, and write the corrected version.
+# Exercise 2 Corrections
 
 ### design.html
-* link tag has scr="design.css" instead of href="design.css"
-* Google Fonts link uses rel="style" instead of rel="stylesheet"
+- The `link` tag must use `href="design.css"`, not `scr="design.css"`.
+- The Google Fonts link must use `rel="stylesheet"`, not `rel="style"`.
 
 ### design.css
-* body rule is missing the opening {
-* h1 rule is missing a semicolon after color: darkblue
-* h1 rule is missing a colon in font-size 28px;
+- The `h1` rule must include a semicolon after `color: darkblue;`.
+- The `font-size` declaration must use a colon: `font-size: 28px;`.
 
-**NB** the errors are commented out after inputing the correct syntax
+These corrections make the stylesheet load correctly and ensure the page renders the intended styles.

@@ -10,7 +10,7 @@ In CSS cascade order, inline styles have higher priority than stylesheet rules, 
 # 2. Make the paragraph green 
 ### Add only one line of code. Where did you add it, and why does it override the others? 
 
-I added it to the external css file **stlye.css**. It overrirded the initial inline style because of the *!important* syntax used. The *!important* has more priority over inline style elements
+I added `color: green !important;` to the external css file **stlye.css**. It overrirded the initial inline style because of the *!important* syntax used. The *!important* has more priority over inline style elements
 
 # 3. Now remove your one line. Change one existing value (not add new code) in the `<style>` block so the paragraph becomes blue. Is this possible? Explain your reasoning.
 
