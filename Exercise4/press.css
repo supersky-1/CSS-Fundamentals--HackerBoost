@@ -1,0 +1,31 @@
+body{
+    background-color: #f0f0f0;
+    color: #2C2F33;
+    font-family: Source Sans Pro;
+}
+p:first-of-type{
+    word-spacing: 2px;
+
+}
+h1{
+    font-family: Playfair Display;
+    color: hsl(210, 80%, 22%);
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    /* text-decoration: line-through; */
+    font-weight: bold;
+    text-align: center;
+    color: dimgray;
+    font-size: 14px
+}
+h3{
+    text-align: center;
+    color: hsl(210, 60%, 22%);
+}
+p{
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+}
