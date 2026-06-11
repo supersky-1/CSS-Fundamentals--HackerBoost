@@ -1,7 +1,7 @@
 # 1. Which color does the paragraph currently display? 
  ### Explain why by identifying which CSS method wins and the rule that governs this.
  
- The color currenetly displayed is **orange**.
+ The color currently displayed is **orange**.
  This is because;
 * p { color: red; } is a regular stylesheet rule in the `<style>` block.
 * style="color: orange;" is an inline style on the `<p>` element.
